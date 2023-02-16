@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Sevillana&display=swap');
+.header{
+    position:sticky;
+}
+h1{
+    padding:10px;
+    text-align: center;
+    font-family: 'Julee', cursive;
+    font-size: 80px;
+}
+textarea{
+    resize:none;
+}
+.createNote{
+    width:fit-content;
+    margin:auto;
+    padding:20px;
+    padding-bottom: 20px;
+    position:relative;
+    background-color: #ff6600b9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 16px #ff7b0086;
+}
+
+.createNote input,.createNote textarea{
+    width:400px;
+    border:0;
+    outline: 0;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 0px 10px 0 10px;
+    padding:3px;
+    box-shadow: 7px 7px 12px #29292986;
+}
+
+.createNote button{
+    position:absolute;
+    right:-24px;
+    bottom:-26px;
+    background:none;
+    border:none;
+    padding:0;
+    outline:none;
+}
+
+.createNote button .MuiSvgIcon-root{
+    background-color: white;
+    position:relative;
+    transition:ease-in 0.1s;
+    border-radius:100%;
+    font-size: 50px;
+    cursor:pointer;
+    color: #ff4400ee;
+}
+.createNote button .MuiSvgIcon-root:hover{
+    scale:1.05;
+    color: #FF4500;
+}
+
+.alert{
+    width:100px;
+    background-color: #fc2616;
+    position: absolute;
+    padding:5px;
+    top:7vh;
+    left:50%;
+    margin:auto;
+    transform:translate(-50%, -50%);
+    font-size: 23px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Julee';
+    border-radius: 10px;
+}
+
+.alert .MuiSvgIcon-root{
+    color:red;
+    border-radius:100%;
+    background-color: black;
+    position: absolute;
+    cursor:pointer;
+    right:-10px;
+    top:-10px;
+}
+
+@media only screen and (max-width:500px){
+    .createNote input,.createNote textarea{
+        width:300px;
+    }
+}

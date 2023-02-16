@@ -1,0 +1,24 @@
+::-webkit-scrollbar{
+    width:0;
+}
+.noteContainer{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding:10px;
+    align-items: flex-start;
+}
+
+.empty{
+    font-family:'Julee', cursive;
+    font-weight: bold;
+    font-size:50px;
+    margin:auto;
+    text-align:center;
+    color:rgba(128, 128, 128, 0.589);
+}
+
+.empty .MuiSvgIcon-root{
+    font-size:300px;
+    padding:0;
+}

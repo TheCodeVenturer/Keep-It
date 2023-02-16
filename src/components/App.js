@@ -1,10 +1,10 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import React, { useState } from "react";
-import { db } from "./db";
+import { db } from "../db";
 import Note from "./Note";
-import Header from "./components/header";
+import Header from "./header";
 import Battery0BarIcon from '@mui/icons-material/Battery0Bar';
-import "./CSS/App.css"
+import "../CSS/App.css"
 
 const App = () => {
   const [notes, setNotes] = useState([]);
