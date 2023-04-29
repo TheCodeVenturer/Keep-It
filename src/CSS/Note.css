@@ -46,6 +46,7 @@
     padding:0 5px;
 }
 .deleteIcon{
+    cursor: pointer;
     float:right;
     scale:1.3;
 }
